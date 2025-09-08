@@ -19,7 +19,7 @@ import com.challenge.BookManagement.entity.Book;
 import com.challenge.BookManagement.service.BookService;
 
 @RestController
-@RequestMapping("api/book")
+@RequestMapping("api/books")
 public class BookController {
 	
 	public BookController(BookService bookService) {
